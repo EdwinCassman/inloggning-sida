@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0ee468a61e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>LoggaIn.com</h1>
+        </div>
+        
+        <div style="display: flex;">
+            <p style="padding: .25rem;">Hem</p>
+            <p style="padding: .25rem; margin-right: .5rem;">Kontakt</p>
+            <div id="headerIcon">
+                <i class="fa-solid fa-right-to-bracket signin" onclick="showLogInPage()"></i>
+            </div>
+        </div>
+        
+    </header>
+    <div id="root">
+        <p class="preMsg">För att läsa allt innehåll måste du först logga in...</p>
+        <p class="preLogInBtn" onclick="showLogInPage()">Logga in</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
